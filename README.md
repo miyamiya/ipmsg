@@ -25,12 +25,12 @@ php-cli-5.5.20-2.fc20.x86_64
 ## Usage(Plan)
 
 ```
-$ ipmsg makeconfig
-$ ipmsg login [<config path>]
-$ ipmsg users
-$ ipmsg send <user id>
-$ ipmsg msgs [<message id>]
-$ ipmsg logout
+$ php ipmsg makeconfig
+$ php ipmsg login [<config path>] &
+$ php ipmsg users
+$ php ipmsg send <user id>
+$ php ipmsg msgs [<message id>]
+$ php ipmsg logout
 ```
 ## Examples, Demo
 
